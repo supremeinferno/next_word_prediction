@@ -1,4 +1,4 @@
-# WordFlow
+# ⚡ WordFlow
 
 LSTM-based next word prediction system built using TensorFlow, Keras, and Streamlit.
 
