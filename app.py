@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
 import pickle
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.models import load_model
+from keras.preprocessing.sequence import pad_sequences
 
 st.set_page_config(
     page_title="WordFlow · Next Word AI",
@@ -534,3 +534,7 @@ if predict_btn:
 # Footer
 st.markdown('<div class="site-footer">Built by SupremeInferno · Powered by LSTM</div>', unsafe_allow_html=True)
 
+
+
+
+#python3 -m streamlit run app.py
